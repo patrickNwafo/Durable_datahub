@@ -16,8 +16,10 @@ const AboutUsSection = () => {
                 <motion.p className='flex p-4 text-sm text-center'
                     ref={ref3}
                     initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 1, delay: 0.5 }}>This is a telecommunication industry playing a major role in distribution, selling affordable and most cheapest data, airtime, Dstv subscription, Gotv subscription, Startimes subscription, Convert Airtime to Cash and Electricity subscription.
+                    animate={inView3 ? { opacity: 1 } : {}}
+                    transition={{ duration: 1, delay: 0.5 }}
+                >
+                    This is a telecommunication industry playing a major role in distribution, selling affordable and most cheapest data, airtime, Dstv subscription, Gotv subscription, Startimes subscription, Convert Airtime to Cash and Electricity subscription.
                     Certain things are hard; making payments shouldn't be one of them. peacesub helps you make payments for services you enjoy right from the comfort of your home or office. The experience of total convenience,fast service delivery and easy payment is just at your fingertips..</motion.p>
             </div>
             <div className='flex flex-col gap-2 p-4 md:flex-row justify-evenly' >
