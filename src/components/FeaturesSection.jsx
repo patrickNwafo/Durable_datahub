@@ -1,9 +1,11 @@
 import React from 'react'
 
-const FeaturesSection = () => {
+const Services = () => {
     return (
-        <div>FeaturesSection</div>
+        <div>
+            <div></div>
+        </div>
     )
 }
 
-export default FeaturesSection
+export default Services

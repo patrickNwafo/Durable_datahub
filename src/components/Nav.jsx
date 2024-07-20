@@ -27,13 +27,13 @@ const Nav = () => {
                         <Link className='duration-500 hover:text-blue-400 hover:translate-x-1 hover:transition ' to="/register">REGISTER</Link>
                     </div>
                 </div>
-                <div className={`md:hidden ${isSidebarOpen ? 'block' : 'hidden'} bg-white shadow-md p-4`}>
-                    <Link to="/">HOME</Link>
-                    <Link to="/about">ABOUT US</Link>
-                    <Link to="/services">SERVICES</Link>
-                    <Link to="/pricing">PRICING</Link>
-                    <Link to="/login">LOG IN</Link>
-                    <Link to="/register">REGISTER</Link>
+                <div className={`md:hidden ${isSidebarOpen ? 'flex gap-3 flex-wrap transition font-bold' : 'hidden'} bg-white shadow-md p-4`}>
+                    <Link to="/" className='text-sm duration-500 hover:text-blue-400 hover:translate-x-1 hover:transition'>HOME</Link>
+                    <Link to="/about" className='text-sm duration-500 hover:text-blue-400 hover:translate-x-1 hover:transition'>ABOUT US</Link>
+                    <Link to="/services" className='text-sm duration-500 hover:text-blue-400 hover:translate-x-1 hover:transition'>Featured</Link>
+                    <Link to="/pricing" className='text-sm duration-500 hover:text-blue-400 hover:translate-x-1 hover:transition'>PRICING</Link>
+                    <Link to="/login" className='text-sm duration-500 hover:text-blue-400 hover:translate-x-1 hover:transition'>LOG IN</Link>
+                    <Link to="/register" className='text-sm duration-500 hover:text-blue-400 hover:translate-x-1 hover:transition'>REGISTER</Link>
                 </div>
             </div>
 

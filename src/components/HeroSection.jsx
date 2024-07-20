@@ -39,7 +39,7 @@ const HeroSection = () => {
 
                     </motion.div>
                 </div>
-                <div className="flex justify-center w-full md:w-1/2 md:justify-end">
+                <div className="flex justify-center w-full py-8 md:w-1/2 md:justify-end">
                     <motion.img
                         src="https://media.istockphoto.com/id/1333748315/photo/young-friendly-operator-woman-agent-with-headsets-beautiful-business-woman-wearing-microphone.webp?b=1&s=170667a&w=0&k=20&c=h8ulRZcWiC-JB82F4RdXXjDhv8bhersFphUaIx4riCs="
                         alt="Hero"
