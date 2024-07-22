@@ -18,7 +18,7 @@ const TestimonialSection = () => {
                 <div className=' md:flex-row flex flex-col justify-center items-center gap-4 m-2'>
                     <motion.div
                         ref={ref1}
-                        initial={{ opacity: 0, y: 100 }}
+                        initial={{ opacity: 0, x: 100 }}
                         animate={inView1 ? { opacity: 1, x: 0 } : {}}
                         transition={{ duration: 1 }}
                         className='  p-2 shadow-md border text-balance rounded-sm bg-white flex flex-col items-center text-center h-96'>
@@ -28,7 +28,7 @@ const TestimonialSection = () => {
                     </motion.div>
                     <motion.div
                         ref={ref2}
-                        initial={{ opacity: 0, y: 100 }}
+                        initial={{ opacity: 0, x: 100 }}
                         animate={inView2 ? { opacity: 1, x: 0 } : {}}
                         transition={{ duration: 1, delay: 1 }}
                         className=' p-2 shadow-md border text-balance rounded-sm bg-white flex flex-col items-center text-center h-96'>
@@ -38,7 +38,7 @@ const TestimonialSection = () => {
                     </motion.div>
                     <motion.div
                         ref={ref3}
-                        initial={{ opacity: 0, y: 100 }}
+                        initial={{ opacity: 0, x: 100 }}
                         animate={inView3 ? { opacity: 1, x: 0 } : {}}
                         transition={{ duration: 1, delay: 2 }}
                         className=' p-2 shadow-md border text-balance rounded-sm bg-white flex flex-col items-center text-center h-96'>
@@ -46,7 +46,6 @@ const TestimonialSection = () => {
                         <h2 className='p-2 text-xl font-bold'>Developer's API.</h2>
                         <p className='p-2 mb-4 text-sm'>We provide well documented & easy to integrate API documention, no matter what programming language you make use of..</p>
                     </motion.div>
-
                 </div>
             </div>
         </div>
